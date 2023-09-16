@@ -9,18 +9,10 @@ const Navbar = () => {
 
   return (
       <nav className={`navbar ${theme}`}>
-        <Link to ="/">
-          <img src="./images/DH.ico" alt="DH-logo" />
-        </Link>
-        <p>
-          <Link to ="home">Home</Link>
-        </p>
-        <p>
-          <Link to ="contact">Contact</Link>
-        </p>
-        <p>
-          <Link to ="favs">Favs</Link>
-        </p>
+        <Link to ="/"><img src="./images/DH.ico" alt="DH-logo" /></Link>
+        <Link to ="home">Home</Link>
+        <Link to ="contact">Contact</Link>
+        <Link to ="favs">Favs</Link>
         <button onClick={toggleTheme} >Cambiar el Fondo</button>
       </nav>
   )

@@ -7,9 +7,9 @@ const Contact = () => {
   const { theme } = useContext(ContextGlobal);
 
   return (
-    <div className={`contact ${theme}`} >
-      <h2>Want to know more?</h2>
-      <p>Send us your questions and we will contact you</p>
+    <div id="centradoContact" className={`contact ${theme}`} >
+      <h2>¿Desea conocer más?</h2>
+      <p>Envienos sus preguntas y nos estaremos poniendo en contacto lo mas pronto posible.</p>
       <Form/>
     </div>
   )

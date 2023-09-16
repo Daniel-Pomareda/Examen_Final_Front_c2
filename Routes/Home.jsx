@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
       <main className={`card ${theme}`}>
-        <h1>Home</h1>
+        <h1 className="home">Home</h1>
         <div className="card-grid">
             {data.map((users) => (
               <Card

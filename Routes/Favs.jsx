@@ -17,7 +17,7 @@ const Favs = () => {
     
   return (
       <div className={`card ${theme}`}>
-        <h1>Dentists Favs</h1>
+        <h1>Dentistas Favoritos</h1>
         <div className="card-grid">
           {storedFavoriteCards.map((favoriteData) => (
             <Card

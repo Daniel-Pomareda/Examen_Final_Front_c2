@@ -23,7 +23,7 @@ const Detail = () => {
   return (
     <>
       <div className={`card ${theme}`}>
-        <h1>Detail Dentist id {id}</h1>
+        <h1>Detalle del Dentista con id N°{id}</h1>
         {userData ? (
           <div>
             <p>Name: {userData.name}</p>
